@@ -1,0 +1,33 @@
+:root {
+    --main_grad: linear-gradient(45deg, rgba(201,115,255,1) 0%, rgba(174,186,248,1) 100%);
+    --bg_col: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(40,16,78,1) 50%, rgba(98,54,160,1) 100%);
+    --main_txt: white;
+    --col_grad1: rgba(201,115,255,1);
+    --col_grad2: rgba(174,186,248,1);
+    --col_1: #28104e;
+    --col_2: #6236a0;
+    --col_3: #9754cb;
+    --col_4: #deacf5;
+}
+
+#bg_blob {
+    background: var(--main_grad);
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+
+    border-radius: 100%;
+    z-index: -2;
+}
+
+#blob_blur {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    backdrop-filter: blur(100px);
+}

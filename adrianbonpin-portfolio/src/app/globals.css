@@ -1,7 +1,9 @@
 :root {
   --main_grad: linear-gradient(45deg, rgba(201,115,255,1) 0%, rgba(174,186,248,1) 100%);
-  --bg_col: #000;
+  --bg_col: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(40,16,78,1) 50%, rgba(98,54,160,1) 100%);
   --main_txt: white;
+  --col_grad1: rgba(201,115,255,1);
+  --col_grad2: rgba(174,186,248,1);
   --col_1: #28104e;
   --col_2: #6236a0;
   --col_3: #9754cb;
@@ -18,8 +20,9 @@
 }
 
 body {
+  z-index: -2;
   overflow-x: hidden;
-  background-color: var(--bg_col);
+  background: var(--bg_col);
 }
 
 section {

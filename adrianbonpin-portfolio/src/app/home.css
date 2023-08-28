@@ -1,21 +1,9 @@
-:root {
-    --main_grad: linear-gradient(45deg, rgba(201,115,255,1) 0%, rgba(174,186,248,1) 100%);
-    --bg_col: #000;
-    --main_txt: white;
-    --col_grad1: rgba(201,115,255,1);
-    --col_grad2: rgba(174,186,248,1);
-    --col_1: #28104e;
-    --col_2: #6236a0;
-    --col_3: #9754cb;
-    --col_4: #deacf5;
-}
-
 .mainTitle {
     position: absolute;
     background: var(--main_grad);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-user-select: none;
 }
 
